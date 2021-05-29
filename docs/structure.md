@@ -26,7 +26,7 @@ AOB members:
 -   can include the Administrative Secretary (AS), although not a
     requirement
 
-AOB Members are responsible for:
+AOB members are responsible for:
 
 -   vetoing any CFV that does not comply with this UC, except those
     which change the UC

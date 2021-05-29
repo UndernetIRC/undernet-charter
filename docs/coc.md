@@ -10,7 +10,7 @@ network or its sponsors. Objections to a motion (with or without
 formal RFD or CFV) are expected to be substantiated for others to
 understand a given position and fairly respond.
 
-The Administrative Body (AB) consists of many people from different
+The AB consists of many people from different
 backgrounds. Sometimes simple language barriers can even cause issues
 between members. It is, however, expected that the AB consists of
 rational and reasonable individuals who can set aside differences to

@@ -6,7 +6,7 @@ evolution over the first 25 years of Undernet and incorporates many of
 the ideas that have been established through the volunteers that built
 the system.
 
-It will replace all CFVs prior to **June, 1st 2021**. It will be used
+It will replace all CFVs prior to **June 1st, 2021**. It will be used
 to validate all future CFVs.
 
 This charter should evolve as Undernet evolves. Changes to this
