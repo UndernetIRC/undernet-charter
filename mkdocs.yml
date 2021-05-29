@@ -1,0 +1,27 @@
+site_name: Undernet Administration Charter
+use_directory_urls: false
+
+theme:
+  name: material
+plugins:
+  - search
+  - enumerate-headings:
+      strict: false
+      toc_depth: 6
+markdown_extensions:
+  - toc:
+      permalink: "#"
+      toc_depth: 6
+
+nav:
+  - 1. Document Purpose: index.md
+  - 2. Network Administration Structure: structure.md
+  - 3. Code of Conduct: coc.md
+  - 4. Making Changes: changes.md
+  - 5. Network Services: services.md
+  - 6. Network Committees (NCs): committees.md
+  - 7. Server Operators (SOs): operators.md
+  - 8. Acceptable Use Policy (AUP): aup.md
+  - 9. *world Acceptable use Policy: worldaup.md
+  - 10. Glossary of Terms: glossary.md
+  - 11. Appendix: appendix.md
