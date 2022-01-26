@@ -93,11 +93,11 @@ eligible voting members changed since the prior CFV.
 
 ## Seconds
 
-All motions for change that do not result in a CFV must be confirmed
-by at least two voting administrators through e-mail to the Undernet
-Admins mailing list, known as "seconds". If a server has an SA and an
-Admin-Rep, only one can count toward these 'seconds' for a given
-motion.
+All motions for change that do not result in a CFV (except when proposing 
+new SOs) must be confirmed by at least two voting administrators through 
+e-mail to the Undernet Admins mailing list, known as "seconds". If a 
+server has an SA and an Admin-Rep, only one can count toward these 
+'seconds' for a given motion.
 
 ## Objections
 
