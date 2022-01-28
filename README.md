@@ -3,8 +3,7 @@
 ## MkDocs
 
 The documentation is written in MarkDown and uses the [MkDocs](https://www.mkdocs.org/)
-framework. It currently capable of generating a searchable website and a PDF
-of the content.
+framework. 
 
 ## Usage
 
@@ -20,14 +19,16 @@ There are currently two ways to run MkDocs locally to preview changes in real-ti
 
 #### Installing MkDocs using pipenv
 
-`$ pipenv install`
+```$ pipenv install```
 
 #### Running MkDocs
 
-`$ pipenv shell`
-`$ mkdocs serve`
+```
+$ pipenv shell
+$ mkdocs serve
+```
 
 
 ### Using docker and docker-compose
 
-`$ docker-compose up`
+```$ docker-compose up```
