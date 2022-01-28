@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  mkdocs:
+    container_name: undernet-charter
+    working_dir: /app
+    build: .
+    restart: always
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./:/app
