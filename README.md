@@ -19,7 +19,9 @@ There are currently two ways to run MkDocs locally to preview changes in real-ti
 
 #### Installing MkDocs using pipenv
 
-```$ pipenv install```
+```
+$ pipenv install
+```
 
 #### Running MkDocs
 
@@ -31,4 +33,6 @@ $ mkdocs serve
 
 ### Using docker and docker-compose
 
-```$ docker-compose up```
+```
+$ docker-compose up
+```
