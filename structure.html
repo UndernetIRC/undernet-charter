@@ -1,0 +1,482 @@
+
+<!DOCTYPE html>
+
+<html class="no-js" lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1" name="viewport"/>
+<link href="assets/images/favicon.png" rel="icon"/>
+<meta content="mkdocs-1.2.3, mkdocs-material-8.1.8" name="generator"/>
+<title>2. Network Administration Structure - Undernet Administration Charter</title>
+<link href="assets/stylesheets/main.6e60f8b8.min.css" rel="stylesheet"/>
+<link href="assets/stylesheets/palette.e6a45f82.min.css" rel="stylesheet"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&amp;display=fallback" rel="stylesheet"/>
+<style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+<script>__md_scope=new URL(".",location),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+</head>
+<body data-md-color-accent="none" data-md-color-primary="none" data-md-color-scheme="" dir="ltr">
+<input autocomplete="off" class="md-toggle" data-md-toggle="drawer" id="__drawer" type="checkbox"/>
+<input autocomplete="off" class="md-toggle" data-md-toggle="search" id="__search" type="checkbox"/>
+<label class="md-overlay" for="__drawer"></label>
+<div data-md-component="skip">
+<a class="md-skip" href="#network-administration-structure">2. 
+          Skip to content
+        </a>
+</div>
+<div data-md-component="announce">
+</div>
+<header class="md-header" data-md-component="header">
+<nav aria-label="Header" class="md-header__inner md-grid">
+<a aria-label="Undernet Administration Charter" class="md-header__button md-logo" data-md-component="logo" href="index.html" title="Undernet Administration Charter">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"></path></svg>
+</a>
+<label class="md-header__button md-icon" for="__drawer">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"></path></svg>
+</label>
+<div class="md-header__title" data-md-component="header-title">
+<div class="md-header__ellipsis">
+<div class="md-header__topic">
+<span class="md-ellipsis">
+            Undernet Administration Charter
+          </span>
+</div>
+<div class="md-header__topic" data-md-component="header-topic">
+<span class="md-ellipsis">
+            
+              2. Network Administration Structure
+            
+          </span>
+</div>
+</div>
+</div>
+<label class="md-header__button md-icon" for="__search">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"></path></svg>
+</label>
+<div class="md-search" data-md-component="search" role="dialog">
+<label class="md-search__overlay" for="__search"></label>
+<div class="md-search__inner" role="search">
+<form class="md-search__form" name="search">
+<input aria-label="Search" autocapitalize="off" autocomplete="off" autocorrect="off" class="md-search__input" data-md-component="search-query" name="query" placeholder="Search" required="" spellcheck="false" type="text"/>
+<label class="md-search__icon md-icon" for="__search">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"></path></svg>
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"></path></svg>
+</label>
+<nav aria-label="Search" class="md-search__options">
+<button aria-label="Clear" class="md-search__icon md-icon" tabindex="-1" type="reset">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"></path></svg>
+</button>
+</nav>
+</form>
+<div class="md-search__output">
+<div class="md-search__scrollwrap" data-md-scrollfix="">
+<div class="md-search-result" data-md-component="search-result">
+<div class="md-search-result__meta">
+            Initializing search
+          </div>
+<ol class="md-search-result__list"></ol>
+</div>
+</div>
+</div>
+</div>
+</div>
+</nav>
+</header>
+<div class="md-container" data-md-component="container">
+<main class="md-main" data-md-component="main">
+<div class="md-main__inner md-grid">
+<div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation">
+<div class="md-sidebar__scrollwrap">
+<div class="md-sidebar__inner">
+<nav aria-label="Navigation" class="md-nav md-nav--primary" data-md-level="0">
+<label class="md-nav__title" for="__drawer">
+<a aria-label="Undernet Administration Charter" class="md-nav__button md-logo" data-md-component="logo" href="index.html" title="Undernet Administration Charter">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"></path></svg>
+</a>
+    Undernet Administration Charter
+  </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="index.html">
+        1. Document Purpose
+      </a>
+</li>
+<li class="md-nav__item md-nav__item--active">
+<input class="md-nav__toggle md-toggle" data-md-toggle="toc" id="__toc" type="checkbox"/>
+<label class="md-nav__link md-nav__link--active" for="__toc">
+          2. Network Administration Structure
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<a class="md-nav__link md-nav__link--active" href="structure.html">
+        2. Network Administration Structure
+      </a>
+<nav aria-label="Table of contents" class="md-nav md-nav--secondary">
+<label class="md-nav__title" for="__toc">
+<span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+<ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#domain-registrant-dr">2.1 
+    Domain Registrant (DR)
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#administrative-oversight-board-aob">2.2 
+    Administrative Oversight Board (AOB)
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#administrative-secretary-as">2.3 
+    Administrative Secretary (AS)
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#honorary-administrators-has">2.4 
+    Honorary Administrators (HAs)
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#server-administrators-sas">2.5 
+    Server Administrators (SAs)
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#service-maintainers-sms">2.6 
+    Service Maintainers (SMs)
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#committee-coordinators-ccs">2.7 
+    Committee Coordinators (CCs)
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#administrative-body-ab">2.8 
+    Administrative Body (AB)
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="coc.html">
+        3. Code of Conduct
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="changes.html">
+        4. Making Changes
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="services.html">
+        5. Network Services
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="committees.html">
+        6. Network Committees (NCs)
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="operators.html">
+        7. Server Operators (SOs)
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="aup.html">
+        8. Acceptable Use Policy (AUP)
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="worldaup.html">
+        9. *world Acceptable use Policy
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="glossary.html">
+        10. Glossary of Terms
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="appendix.html">
+        11. Appendix
+      </a>
+</li>
+</ul>
+</nav>
+</div>
+</div>
+</div>
+<div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc">
+<div class="md-sidebar__scrollwrap">
+<div class="md-sidebar__inner">
+<nav aria-label="Table of contents" class="md-nav md-nav--secondary">
+<label class="md-nav__title" for="__toc">
+<span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+<ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#domain-registrant-dr">2.1 
+    Domain Registrant (DR)
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#administrative-oversight-board-aob">2.2 
+    Administrative Oversight Board (AOB)
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#administrative-secretary-as">2.3 
+    Administrative Secretary (AS)
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#honorary-administrators-has">2.4 
+    Honorary Administrators (HAs)
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#server-administrators-sas">2.5 
+    Server Administrators (SAs)
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#service-maintainers-sms">2.6 
+    Service Maintainers (SMs)
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#committee-coordinators-ccs">2.7 
+    Committee Coordinators (CCs)
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#administrative-body-ab">2.8 
+    Administrative Body (AB)
+  </a>
+</li>
+</ul>
+</nav>
+</div>
+</div>
+</div>
+<div class="md-content" data-md-component="content">
+<article class="md-content__inner md-typeset">
+<h1 id="network-administration-structure"><span class="enumerate-headings-plugin enumerate-heading-plugin">2.</span> Network Administration Structure<a class="headerlink" href="#network-administration-structure" title="Permanent link">#</a></h1>
+<h2 id="domain-registrant-dr"><span class="enumerate-headings-plugin enumerate-heading-plugin">2.1</span> Domain Registrant (DR)<a class="headerlink" href="#domain-registrant-dr" title="Permanent link">#</a></h2>
+<p>The person(s) appointed as the ICANN registrant of the domain
+"undernet.org".</p>
+<p>Responsible for the discretionary appointment and change of
+Administrative Oversight Board (AOB) members.</p>
+<p>DR may change domain registrant at their choosing (i.e., resignation)
+and would normally do so in collaboration with existing AOB members.</p>
+<h2 id="administrative-oversight-board-aob"><span class="enumerate-headings-plugin enumerate-heading-plugin">2.2</span> Administrative Oversight Board (AOB)<a class="headerlink" href="#administrative-oversight-board-aob" title="Permanent link">#</a></h2>
+<p>A group of normally 3 members responsible for the general oversight of
+activity from AB members to ensure adherence to the Undernet Charter
+(UC).</p>
+<p>AOB members:</p>
+<ul>
+<li>are appointed by the DR at their discretion---trusted to act
+    responsibly and in the best interest of the network</li>
+<li>can also be voting administrators, although if so they will not be
+    entitled to vote on CFVs which propose changes to the UC</li>
+<li>can include the Administrative Secretary (AS), although not a
+    requirement</li>
+</ul>
+<p>AOB members are responsible for:</p>
+<ul>
+<li>vetoing any CFV that does not comply with this UC, except those
+    which change the UC</li>
+<li>enforcing the Code of Conduct when deemed appropriate</li>
+</ul>
+<p>The AS is responsible for maintaining the list of AOB members which
+shall be published to all AB members and Server Operators via
+<a href="https://db.undernet.org/">https://db.undernet.org/</a> and in
+<strong>teams.md</strong></p>
+<h2 id="administrative-secretary-as"><span class="enumerate-headings-plugin enumerate-heading-plugin">2.3</span> Administrative Secretary (AS)<a class="headerlink" href="#administrative-secretary-as" title="Permanent link">#</a></h2>
+<p>An individual responsible for the issuance of Request For Discussions
+(RFDs) and Call For Votes (CFVs) who is entrusted to tally votes from
+all voting Undernet administrators and issue results to the
+Administrative Body (AB) and Undernet Operators.</p>
+<p>Change of AS can only be achieved by CFV but otherwise not subject to
+any regular review.</p>
+<p>In the event of the resignation of the AS, their last duty shall be the
+supervision of the voting for a new secretary. The resigning AS shall
+pass on the current membership list, access to the RFD/CFV list, and
+arrange for the admin-sec email alias to be transferred to the new
+secretary.</p>
+<p>Any AB member may call for a vote on the removal of a secretary. In
+this case, the voting shall be conducted by an AOB member. Any voting
+AB member may move that a vote be audited by the AOB; if this motion
+is seconded, the AOB will audit the vote results.</p>
+<p>The AS may also be a voting member should they also be a Server
+Administrator or voting Honorary Admin.</p>
+<h2 id="honorary-administrators-has"><span class="enumerate-headings-plugin enumerate-heading-plugin">2.4</span> Honorary Administrators (HAs)<a class="headerlink" href="#honorary-administrators-has" title="Permanent link">#</a></h2>
+<p>Longstanding contributors to Undernet who have been recognized and
+appointed by other voting administrators (honorary/network) to provide
+continued leadership contribution even after they may no longer
+provide services, lead committees, or even chat frequently on IRC
+itself. Only those individuals with a minimum of 10 years of
+contribution as an AB member can be made Honorary Administrators. When
+this requirement is met they can be motioned to be added or removed
+via simple majority CFV.</p>
+<p>These CFVs will nominate whether the motion is to make the member a
+voting or non-voting HA. Rescinding the voting rights of an HA or
+changing an existing non-voting HA to one with vote privileges,
+requires a new simple majority CFV.</p>
+<p>An honorary admin can take a leave of absence of up to 10-months by
+notifying the AS, whereby their voting status will be suspended. They
+may only take 10-months of leave over a 30-month period. The AS will
+notify the Undernet Admins mailing list to inform the AB of such
+absences and returns.</p>
+<p>The AS is responsible for maintaining the list of current HAs,
+including identification of voting HAs, which shall be published to
+all AB members and Server Operators via
+<a href="https://db.undernet.org/">https://db.undernet.org/</a> and in
+<strong>teams.md</strong></p>
+<h2 id="server-administrators-sas"><span class="enumerate-headings-plugin enumerate-heading-plugin">2.5</span> Server Administrators (SAs)<a class="headerlink" href="#server-administrators-sas" title="Permanent link">#</a></h2>
+<p>Server Administrators (SAs) are personnel responsible for providing
+and maintaining leaf and hub servers.</p>
+<p>Each server may have a single primary admin, and a single admin-rep
+(i.e., secondary/co-admin) subscribed to the Undernet Admins mailing
+list.</p>
+<p>A server with both an Admin and Admin-Rep is entitled to a single vote
+during CFVs, if both submit a CFV response only that of the primary
+admin will be considered.</p>
+<p>An SA responsible for multiple servers is entitled to a single vote
+across all servers even if servers span multiple host sponsor
+networks.</p>
+<p>SAs may only provide RFC1918 space or spoofed DNS to AB members or 
+Server Operators (SOs) or their bots. Any person removed from their 
+position by the AB must  also have access to such hostnames or 
+Undernet services, removed.</p>
+<p>If an SA wishes to transfer the administration of a server to another
+person and this change were to generate an additional vote during
+CFVs, this motion must be ratified by a resulting CFV among all
+existing voting administrators.</p>
+<p>SAs and any admin representative will be removed when they are no
+longer an admin(-rep) of any server unless they are eligible to remain
+through some other applicable role or are voted to remain as a
+non-voting or voting HA.</p>
+<p>The AS is responsible for maintaining the list of current servers and
+their SAs which shall be published to all AB members and Server
+Operators via
+<a href="https://db.undernet.org/">https://db.undernet.org/</a> and in
+<strong>teams.md</strong></p>
+<h2 id="service-maintainers-sms"><span class="enumerate-headings-plugin enumerate-heading-plugin">2.6</span> Service Maintainers (SMs)<a class="headerlink" href="#service-maintainers-sms" title="Permanent link">#</a></h2>
+<p>Service Maintainers are personnel responsible for providing and
+maintaining network services.</p>
+<p>SMs are non-voting members (unless granted a vote through other roles
+held as defined in this document).</p>
+<p>Current network services:</p>
+<ul>
+<li>chanfix.undernet.org</li>
+<li>dronescan.undernet.org</li>
+<li>uworld.eu.undernet.org</li>
+<li>channels.undernet.org</li>
+<li>Undernet RBL</li>
+<li>Undernet Website</li>
+<li>CService Website</li>
+<li>DB Website</li>
+</ul>
+<p>Changes to the appointed SMs are normally motioned by the outgoing SM
+for a given service or by the Coder-Com maintainer(s). The objection
+period shall be followed with the normal CFV process if required.</p>
+<p>The AS is responsible for maintaining the list of current SMs which
+shall be published to all AB members (not Server Operators) via
+<a href="https://db.undernet.org/">https://db.undernet.org/</a> and in
+<strong>teams.md</strong></p>
+<h2 id="committee-coordinators-ccs"><span class="enumerate-headings-plugin enumerate-heading-plugin">2.7</span> Committee Coordinators (CCs)<a class="headerlink" href="#committee-coordinators-ccs" title="Permanent link">#</a></h2>
+<p>Committee Coordinators (CCs) are personnel responsible for providing
+leadership to the various committees on the network.</p>
+<p>CCs are non-voting members (unless granted a vote through other roles
+held as defined in this document).</p>
+<p>CCs are responsible for representing their committee and its members
+to the AB.</p>
+<p>CCs are responsible for appointing their own replacement by making the
+recommendation to the AB for approval via the normal CFV process. If
+voting administrators wish to nominate others to the role this may be
+motioned during the CFV.</p>
+<p>Current committees:</p>
+<ul>
+<li>Abuse</li>
+<li>Channel Service</li>
+<li>Coder-Com</li>
+<li>Oper Training-Com</li>
+<li>Routing-Com</li>
+<li>User-Com</li>
+</ul>
+<p>The AS is responsible for maintaining the list of current CCs which
+shall be published to all AB members and Server Operators via
+<a href="https://db.undernet.org/">https://db.undernet.org/</a> and in
+<strong>teams.md</strong></p>
+<h2 id="administrative-body-ab"><span class="enumerate-headings-plugin enumerate-heading-plugin">2.8</span> Administrative Body (AB)<a class="headerlink" href="#administrative-body-ab" title="Permanent link">#</a></h2>
+<p>The group of personnel collectively responsible for the successful
+continuation of the Undernet Network. This group comprises of all
+members defined within section Network Structure, summarised below:</p>
+<ul>
+<li>Domain Registrant (DR)</li>
+<li>Administrative Oversight Board (AOB)</li>
+<li>Administrative Secretary (AS)</li>
+<li>Honorary Administrators (HAs)</li>
+<li>Server Administrators (SAs)</li>
+<li>Service Maintainers (SMs)</li>
+<li>Committee Coordinators (CCs)</li>
+</ul>
+</article>
+</div>
+</div>
+</main>
+<footer class="md-footer">
+<nav aria-label="Footer" class="md-footer__inner md-grid">
+<a aria-label="Previous: 1. Document Purpose" class="md-footer__link md-footer__link--prev" href="index.html" rel="prev">
+<div class="md-footer__button md-icon">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"></path></svg>
+</div>
+<div class="md-footer__title">
+<div class="md-ellipsis">
+<span class="md-footer__direction">
+                Previous
+              </span>
+              1. Document Purpose
+            </div>
+</div>
+</a>
+<a aria-label="Next: 3. Code of Conduct" class="md-footer__link md-footer__link--next" href="coc.html" rel="next">
+<div class="md-footer__title">
+<div class="md-ellipsis">
+<span class="md-footer__direction">
+                Next
+              </span>
+              3. Code of Conduct
+            </div>
+</div>
+<div class="md-footer__button md-icon">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"></path></svg>
+</div>
+</a>
+</nav>
+<div class="md-footer-meta md-typeset">
+<div class="md-footer-meta__inner md-grid">
+<div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" rel="noopener" target="_blank">
+      Material for MkDocs
+    </a>
+</div>
+</div>
+</div>
+</footer>
+</div>
+<div class="md-dialog" data-md-component="dialog">
+<div class="md-dialog__inner md-typeset"></div>
+</div>
+<script id="__config" type="application/json">{"base": ".", "features": [], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing", "select.version.title": "Select version"}, "search": "assets/javascripts/workers/search.22074ed6.min.js"}</script>
+<script src="assets/javascripts/bundle.960e086b.min.js"></script>
+</body>
+</html>
