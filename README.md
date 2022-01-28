@@ -1,4 +1,4 @@
-# Undernet Document (db.undernet.org)
+# Undernet Charter (charter.undernet.org)
 
 ## MkDocs
 
@@ -17,7 +17,6 @@ There are currently two ways to run MkDocs locally to preview changes in real-ti
 
 - Python 3.x
 - pipenv
-- pango
 
 #### Installing MkDocs using pipenv
 
